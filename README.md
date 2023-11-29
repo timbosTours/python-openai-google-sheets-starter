@@ -50,21 +50,7 @@ Once you have these prerequisites ready, you can proceed with the installation a
 ## Installation
 Follow these steps to install and set up the project on your local machine:
 
-1. Clone the Repository
-   - If you have Git installed, open a terminal or command prompt.
-   - Navigate to the folder where you want the project to be using the `cd` command. For example: `cd Documents/Projects`.
-   - Clone the repository by executing:
-     ```bash
-     git clone https://github.com/timbosTours/python-openai-google-sheets-starter
-     ```
-
-2. Navigate to the Project Directory
-   - After cloning the repository, move into the project directory:
-     ```bash
-     cd python-openai-google-sheets-starter
-     ```
-
-3. ## setting-up-the-environment
+1. ## setting-up-the-environment
    - A virtual environment is a self-contained directory that contains a Python installation for a particular version of Python, plus a number of additional packages.
    - Creating a virtual environment ensures that the dependencies of your project are isolated from your main system.
    - To create a virtual environment, execute:
@@ -82,6 +68,20 @@ Follow these steps to install and set up the project on your local machine:
        source venv/bin/activate
        ```
      Your command prompt will change to show the name of the activated environment.
+2. Clone the Repository
+   - If you have Git installed, open a terminal or command prompt.
+   - Navigate to the folder where you want the project to be using the `cd` command. For example: `cd Documents/Projects`.
+   - Clone the repository by executing:
+     ```bash
+     git clone https://github.com/timbosTours/python-openai-google-sheets-starter.git
+     ```
+
+3. Navigate to the Project Directory
+   - After cloning the repository, move into the project directory:
+     ```bash
+     cd python-openai-google-sheets-starter
+     ```
+
 
 4. ## install-dependencies
    - With the virtual environment activated, install the project dependencies by running:
