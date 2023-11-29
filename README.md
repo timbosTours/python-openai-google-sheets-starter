@@ -55,17 +55,14 @@ Follow these steps to install and set up the project on your local machine:
    - Navigate to the folder where you want the project to be using the `cd` command. For example: `cd Documents/Projects`.
    - Clone the repository by executing:
      ```bash
-     git clone https://github.com/your-username/your-repository-name.git
+     git clone https://github.com/timbosTours/python-openai-google-sheets-starter
      ```
-     Replace `https://github.com/your-username/your-repository-name.git` with the actual URL of your repository.
-   - If you do not have Git installed, you can download the project as a ZIP file from GitHub and extract it to your desired location.
 
 2. Navigate to the Project Directory
    - After cloning the repository, move into the project directory:
      ```bash
-     cd your-repository-name
+     cd python-openai-google-sheets-starter
      ```
-     Replace `your-repository-name` with the name of the folder created by the cloning process.
 
 3. ## setting-up-the-environment
    - A virtual environment is a self-contained directory that contains a Python installation for a particular version of Python, plus a number of additional packages.
@@ -226,14 +223,13 @@ These use cases demonstrate the versatility and power of integrating Python with
 
 Environment variables are used to securely store sensitive information, such as API keys, outside of your main codebase. To configure these for your project, follow these steps:
 
-1. Copy the .env.template File
-  In the root directory of your project, you will find a file named `.env.template`.
-  Make a copy of this file in the same directory and rename it to `.env`.
-  This new `.env` file will be used to store your private keys and other sensitive data.
+1. Create a .env File
+  In the root directory of your project, create a new file named `.env`.
+  This file will be used to store your private keys and other sensitive data.
 
 2. Add Environment Variables to the .env File
-  Open the newly created `.env` file in a text editor.
-  You will see placeholder values for the variables you need to set. For this project, you will need to set variables for your Google Sheets and OpenAI API keys.
+  Open the `.env` file in a text editor.
+  Define each variable on a new line. For this project, you will need to set variables for your Google Sheets and OpenAI API keys.
   The format should be `VARIABLE_NAME=value`. For example:
   ```plaintext
   GOOGLE_SHEETS_API_KEY=your_google_sheets_api_key
