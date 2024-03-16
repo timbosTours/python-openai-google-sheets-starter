@@ -26,7 +26,7 @@ def main():
 
     # Access the Google Sheet by name
     try:
-        spreadsheet = gspread_client.open("tux cat blog 2")
+        spreadsheet = gspread_client.open("INSERT NAME OF SPREADSHEET HERE")
         print("Spreadsheet opened.")
     except Exception as e:
         print("Error opening spreadsheet: ", e)
