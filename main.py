@@ -55,6 +55,7 @@ def main():
         print("Error loading steps from environment variables: ", e)
 
     # Iterate over the specified range of rows
+    # You will need to add logic for each step you create(i.e. step_2, step_3, etc)
     try:
         for row in range(start_row, end_row + 1):
             step_function = dynamic_import("step_1", "process_row_data_with_openai")
